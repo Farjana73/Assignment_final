@@ -1,6 +1,6 @@
 # Project Name - Blog Project with Dashboard
 
-A simple blog management system built with **React**, **Node.js**, **Express**, and **MongoDB** to create, view, and manage blogs effectively.
+A simple blog creating website with **React**, **Node.js**, **Express**, and **MongoDB** to create, view, and manage blogs effectively.
 
 ---
 
@@ -24,13 +24,9 @@ A simple blog management system built with **React**, **Node.js**, **Express**, 
 
 Follow these steps to run the project locally:
 
-### **1. Clone the Repository**
 
-```bash
-git clone 
-cd blog-website
 
-2. Install Dependencies
+1. Install Dependencies
 
 Backend:
 cd backend
@@ -40,7 +36,7 @@ Frontend:
 cd frontend
 npm install
 
-3. Run the Application
+2. Run the Application
 
 Backend:
 cd backend
@@ -50,64 +46,6 @@ Frontend:
 cd frontend
 npm run dev
 
-The project will be available at http://localhost:5173.
-
-blog-website/
-│
-├── frontend/       # React Frontend
-│   ├── public/     # Static assets
-│   ├── src/        # React components, pages, and services
-│
-├── backend/        # Backend API
-│   ├── models/     # Mongoose schemas
-│   ├── routes/     # Express routes
-│   ├── controllers/# Business logic
-│
-└── README.md       # Project documentation
-
-
-📸 Screenshots
-Home Page:
-![Homepage](https://github.com/user-attachments/assets/5230cf9b-08fe-45c3-8fff-5a2bb24e90af)
-
-Blog Details Page:
-![blog](https://github.com/user-attachments/assets/1e34df63-d8bd-4dd5-bc0c-faff778f1f3b)
-![sblog](https://github.com/user-attachments/assets/0ded27c0-e1bf-4fe3-b351-cd9b43f7b77a)
-
-About Page:
-![about](https://github.com/user-attachments/assets/b59968a5-a9b3-4495-b569-3e15db8e2dca)
-
-Service Page:
-![service](https://github.com/user-attachments/assets/fa6479c5-191f-4b86-83ae-f6d109e4278a)
-
-Contact Page:
-![contact](https://github.com/user-attachments/assets/749429ab-5578-4b49-a2b9-ea408eea8f49)
-
-Dashboard:
-Registration: ![dregistration](https://github.com/user-attachments/assets/f2c9cecc-51cb-436b-b9f4-3d6f905269ec)
-Login: ![dlogin](https://github.com/user-attachments/assets/ebe46a3e-ba01-454f-81e0-bebbc3349f89)
-Blog: ![dblog](https://github.com/user-attachments/assets/69bb878a-4659-48d9-a761-67af53d6e9e3)
-Service: ![dservice](https://github.com/user-attachments/assets/187316ed-2108-48b3-b029-5b019ccdf321)
-Team: ![dteam](https://github.com/user-attachments/assets/c14f007c-e1db-470e-b1f5-f222b4b86ae5)
-Message: ![dmessage](https://github.com/user-attachments/assets/32d706bc-f1e8-4283-a278-f9032adcd1b0)
-
-⚙️ API Endpoints
-
-🌟 Features in Progress
-    🔍 Search functionality for blogs.
-    📊 Pagination for large data sets.
-    🌈 Light/Dark theme toggle.
-
-💻 Contributing
-Contributions are welcome! Follow these steps to contribute:
-    Fork this repository.
-    Create a branch for your feature (git checkout -b feature-name).
-    Commit your changes (git commit -m 'Add a new feature').
-    Push to the branch (git push origin feature-name).
-    Create a pull request.
-
-🛡️ License
-This project is licensed under the GPL License.
 
 🤝 Contact
 For questions or collaboration opportunities, reach out:

@@ -10,7 +10,7 @@ const AboutSection = () => {
 					<img src={imgUrl} alt="Learnwish Academy" />
 				</div>
 				<div className="about-content">
-					<h2>About Learnwish</h2>
+					<h2>About MERN stack Development</h2>
 					<p>
 						Welcome to Learnwish, where we turn your learning aspirations into
 						reality. Our mission is to provide high-quality education in
@@ -18,11 +18,11 @@ const AboutSection = () => {
 						and excel in their careers.
 					</p>
 					<p>
-						At Learnwish, we believe in innovation and personalized learning.
+						At MERN, we believe in innovation and personalized learning.
 						Our experienced instructors are committed to creating a supportive
 						and engaging environment for all learners.
 					</p>
-					<button className="learn-more-btn">Learn More</button>
+					<button className="learn-more-btn">Learn New</button>
 				</div>
 			</div>
 		</section>

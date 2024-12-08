@@ -5,14 +5,14 @@ import LogoutButton from "../pages/LogoutButton";
 const Header = () => {
 	const location = useLocation();
 	return (
-		<Navbar bg="dark" variant="dark" expand="lg">
+		<Navbar bg="light" variant="light" expand="lg">
 			<Container>
-				<Navbar.Brand as={Link} to="/">
+				<Navbar.Brand as={Link} to="/" className="font-semibold">
 					MERN-06
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
-					<div className="container-fluid">
+					<div className="container-fluid text-lg">
 						<Nav className="me-auto">
 							<Nav.Link as={Link} to="/">
 								Home
@@ -36,7 +36,7 @@ const Header = () => {
 								<LogoutButton />
 							) : (
 								<Nav.Link as={Link} to="/dashboard/blogs">
-									<div className="btn btn-sm btn-outline-secondary">
+									<div className="btn btn-sm btn-outline-secondary text-lg ">
 										Admin Login
 									</div>
 								</Nav.Link>

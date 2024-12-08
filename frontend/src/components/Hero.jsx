@@ -3,19 +3,19 @@ import Carousel from "react-bootstrap/Carousel";
 const Hero = () => {
 	const slides = [
 		{
-			image: "https://i.ibb.co.com/BwWXG7M/roonz-nl-2x-EQDx-B0ss4-unsplash.jpg",
-			title: "Welcome to Learnwish",
+			image: "https://img.freepik.com/free-photo/digital-circle-circuit-blue-background-futuristic-technology_53876-124643.jpg?uid=R66188868&ga=GA1.1.836500987.1705486275&semt=ais_hybrid",
+			title: "Welcome to MERN stack development",
 			description: "Your journey to mastering coding starts here.",
 		},
 		{
 			image:
-				"https://i.ibb.co.com/3Nj7ntJ/goran-ivos-i-Oyk-DIk-ZLQw-unsplash.jpg",
-			title: "Learn Anytime, Anywhere",
+				"https://img.freepik.com/free-vector/abstract-digital-technology-background-with-network-connection-lines_1017-25552.jpg?uid=R66188868&ga=GA1.1.836500987.1705486275&semt=ais_hybrid",
+			title: "Unlimited Learn with fun",
 			description: "Flexible and accessible courses for everyone.",
 		},
 		{
 			image: "https://i.ibb.co.com/BwWXG7M/roonz-nl-2x-EQDx-B0ss4-unsplash.jpg",
-			title: "Join Our Community",
+			title: "You Can Join Our Team",
 			description: "Connect with learners and mentors globally.",
 		},
 	];
