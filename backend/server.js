@@ -8,7 +8,7 @@ const errorMiddleware = require('./middlewares/errorMiddleware');
 const serviceRoutes = require('./routes/serviceRoutes');
 const teamRoutes = require('./routes/teamRoutes');
 const dashboardRoutes = require('./routes/dashboardRoutes');
-const router = express.Router();
+
 const messageRoutes = require('./routes/messageRoutes');
 const sendEmail = require('./utils/mailer');
 
